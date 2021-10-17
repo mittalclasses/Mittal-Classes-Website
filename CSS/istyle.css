@@ -1,0 +1,687 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+/*===========HEADER STARTS================*/
+.header
+{
+   
+    width: 100%;  
+}
+
+.header-bottom
+{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+
+}
+
+.header-bottom .logo img{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    margin-left: 5px;
+}
+.header-bottom nav ul
+{
+    margin-top: 5px;  
+    float:right;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: -10px;
+    padding-bottom: 0px;
+}
+.header-bottom nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    
+}   
+.header-bottom nav ul li a 
+{
+    color: #193498;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 0px;
+    border: 2px solid transparent;
+    padding: 7px 10px;
+   border-radius: 3px;
+    text-decoration: none;
+}
+.header-bottom nav a.active,
+.header-bottom nav a:hover
+{
+    border: 2px solid #193498;
+    transition: 0.5s;
+    
+}
+.glogo
+{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+.dlogo
+{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -100px
+}
+/*===========HEADER ENDS================*/
+.banner img{
+   
+    width: 100%;
+}
+
+
+
+/*=====TIMELINE CARD STARTS==============*/
+
+.timeline
+{ 
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.register-button{
+    position: absolute;
+    margin-left: 650px;
+    width: fit-content;
+    height:auto;
+}
+.register-button button{
+    width:220px;
+    height:70px;
+    background: #FF0000;
+    border-style: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bolder;
+   
+    text-transform: uppercase;
+    
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 3px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 1px 1px 2px #193498;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:40px;
+}
+
+
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 3px 3px 5px #193498;
+}
+
+
+.timeline-cards-container{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.timeline-cards
+{
+    align-content: center;
+    width: 20%;
+    border-radius: 10px;
+    margin: 4%;
+    display: inline-block;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #2a2a72;
+
+
+}
+.timeline-cards:hover
+{
+    box-shadow: 10px 10px 20px 10px #193498;
+}
+
+.timeline-card-title
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: center;
+    text-align:center;
+    font-weight: bolder;
+    padding: 5px;
+    padding-right: -30px;
+    background-color:#FF0000; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.timeline-card-title h1
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.timeline-card-desc
+{
+    text-align: left;
+    padding: 10px;
+    
+    font-weight: bold;
+}
+.timeline-card-desc h4
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.timeline-card-desc h6
+{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*========TIMELINE CARDS ENDS============*/
+
+
+/*=======DETAILS CARDS STARTS============*/
+.details
+{
+    
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    background-color: #f2f4f7;
+    justify-content: center;
+}
+.section-details
+{
+    
+    background-color: #f2f4f7;
+}
+.details-cards
+{
+    width: 28%;
+    border-radius: 5px;
+    margin: 2.5%;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.details-card-img img
+{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.details-card-title
+{
+    text-align: center;
+    padding: 10px;
+}
+.details-card-title h1
+{
+    font-size: 20px;
+    color: #3e64ff;
+    font-weight: bolder;
+}
+.details-card-desc p
+{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/*========DETAILS CARDS ENDS============*/
+
+
+/*===ABOUT HOSPITAL SECTION STARTS====*/
+.about
+{
+    margin-top: 100px;
+    background-color: #f2f4f7;
+}
+
+.about-title
+{
+    
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    
+    justify-content: center;
+}
+
+.about .about-text p
+{
+    
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about-cards
+{
+    width: 28%;
+    border-radius: 5px;
+    margin: 2.5%;
+    margin-left: 13%;
+    display: inline-block;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 10px gray;
+}
+.about-cards:hover
+{
+    box-shadow: 10px 10px 20px 10px gray;
+}
+.about-card-img img
+{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+}
+.about-card-title
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+        background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.about-card-title h1
+{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.scholarship h2{
+    
+    font-weight: bolder;
+    padding-left: 2%;
+    font-size: 40px;
+    color: #FF0000;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration:underline;
+}
+.scholarship-cards-container{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.scholarship-cards
+{
+    width: 95%;
+    border-radius: 5px;
+    margin: 2%;
+    
+    display: inline-block;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 10px gray;
+}
+.scholarship-cards h2{
+    
+    font-weight: bolder;
+    padding-left: 2%;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.scholarship-card-img img
+{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+}
+.scholarship-card-title
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder
+}
+.scholarship-card-title h1
+{
+    font-size: 20px;
+    color: #3e64ff;
+    font-weight: bolder;
+}
+
+/*===WHY MCLS  SECTION ENDS======*/
+
+/*=====REGISTER CARD STARTS==============*/
+
+
+.register
+{
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    
+    justify-content: center;
+}
+.register-cards-container{
+    margin-left: 170px;
+}
+.register-cards-desc
+{
+    align-content: center;
+    width: 40%;
+    border-radius: 10px;
+    margin: 2%;
+    margin-left: 6%;
+    display: inline-block;
+    font-family: sans-serif;
+    color: #000;
+    padding-left: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px gray;
+
+}
+
+.register-cards-desc p b
+{
+    color: #3e64ff;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.register-cards-desc p 
+{
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+/*========REGISTER CARDS ENDS============*/
+
+/*===Why MCLS SECTION STARTS====*/
+.section-features
+{
+   display: flex;
+    padding-bottom: 50px;
+}
+.features
+{
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+        
+.features-text ol {
+    
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+
+.features-text ol a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  margin: .5em 0 .5em 2.5em;
+  background: #fff;
+  color: #444;
+    font-size: 25px;
+   
+  text-decoration: none;
+   box-shadow: 2px 2px 10px gray; 
+}
+    
+.features-text ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #FFD523;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+    
+    
+}
+
+.features-text ol a:after {
+  position: absolute;
+  content: "";
+  border: .5em solid transparent;
+  top: 50%;
+  margin-top: -.5em;
+    left: -.5em;
+  border-left-color: #FFD523;
+  transition: all .3s ease-out;
+}
+    
+.features-image .build
+{
+    
+    width: 700px;
+    height: 600px;
+    margin-right: -700px;
+    float:right;
+}
+
+/*===Why MCLS SECTION ENDS======*/
+
+
+
+/*=======RESULT CARDS STARTS============*/
+.result
+{
+    
+    text-align: center;
+    text-decoration-style: dashed;
+    font-family:sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    background-color: #f2f4f7;
+}
+.section-result{
+    background-color: #f2f4f7;
+}
+.result-cards
+{
+    background-color: #fff;
+    width: 28%;
+    border-radius: 5px;
+    margin: 2.5%;
+    display: inline-block;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.result-card-img img
+{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 60%;
+    background-color: #fff;
+}
+.result-card-title
+{
+    text-align: center;
+    padding: 10px;
+}
+.result-card-title h1
+{
+    font-size: 20px;
+    color: #3e64ff;
+    font-weight: bolder;
+}
+.result-card-title h3
+{
+    font-size: 20px;
+    color: red;
+    
+    font-weight: bolder;
+}
+.result-card-desc p
+{
+    text-align:justify;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*========RESULT CARDS ENDS============*/
+
+
+
+
+/*===========FOOTER SECTION STARTS===========*/
+.footer
+{
+    background-color: #000000;
+background-image: linear-gradient(160deg, #000000 0%, #434343 80%);
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 1px;
+}
+.footer-row{
+    display: flex;
+}
+.footer-column h2{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.footer-column p{
+    padding-top: 25px;
+    padding-left: 40px;
+    width: 450px;
+    padding-right: 20px;
+    word-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+}
+.footer-column p a{
+    color: #fff;
+}
+.footer-column p a:hover
+{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.footer-fb h2{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+iframe
+{
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+.footer-links h2
+{
+    padding-top: 20px;
+}
+.footer-links ul
+{
+    padding-top: 20px;
+}
+.footer-links ul li
+{
+    font-size: 20px; 
+    padding: 5px;
+}
+
+.footer-links ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-links ul li a:hover
+{
+    
+    color: #dfdfdf;
+}
+
+.footer-contact
+{
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+.footer-top-data
+{
+    color: white;
+    display: flex;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.footer-top-data p{
+    
+    padding-left: 20px;
+}
+.footer-top-data img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.footer-end p a{
+    
+    color: #ffc93c;
+}
+.footer-end p
+{
+    text-align: center;
+   padding: 20px;
+}
+
+
+/*========FOOTER SECTION ENDS============*/
+
+
